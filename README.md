@@ -16,15 +16,15 @@ Program ini merupakan implementasi **Object-Oriented Programming (OOP) dalam Jav
 ## Konsep OOP yang Diterapkan
 
 1. **Abstraction**
-   - `MakhlukHidup` sebagai **kelas abstrak** yang mendefinisikan metode umum.
-   - `Bergerak` sebagai **interface** yang harus diimplementasikan oleh `Manusia` dan `Hewan`.
+   - MakhlukHidu` sebagai kelas abstrak yang mendefinisikan metode umum.
+   - Bergerak sebagai interface yang harus diimplementasikan oleh Manusia dan Hewan.
 
 2. **Inheritance** (Pewarisan)
-   - `Manusia`, `Hewan`, dan `Tumbuhan` mewarisi `MakhlukHidup`.
+   - Manusia, Hewan, dan Tumbuhan mewarisi MakhlukHidup.
 
 3. **Polymorphism**
-   - `Manusia` dan `Hewan` mengimplementasikan metode yang sama dari interface `Bergerak` dengan cara yang berbeda.
-   - Override metode `bernapas()` dan `makan()` di masing-masing subclass.
+   - Manusia dan Hewan mengimplementasikan metode yang sama dari interface Bergerak dengan cara yang berbeda.
+   - Override metode bernapas() dan makan() di masing-masing subclass.
 
 4. **Exception Handling**
-   - `UsiaTidakValidException` digunakan untuk menangani kesalahan jika umur yang dimasukkan tidak valid.
+   - UsiaTidakValidException digunakan untuk menangani kesalahan jika umur yang dimasukkan tidak valid.
